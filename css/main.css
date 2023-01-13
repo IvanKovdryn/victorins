@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: comfortaa;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+}
+
+.quiz {
+  width: 500px;
+  min-height: 350px;
+  background-color: rgb(255, 248, 239);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding: 35px 0 10px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.summary {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.li {
+  margin: 5px 0;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.li:hover {
+  background: #ffecea;
+}
+
+.li span {
+  cursor: pointer;
+}
+
+.label {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.submit {
+  width: 100%;
+  justify-self: flex-end;
+  background: #cb070d;
+  color: #fff;
+  border: unset;
+  padding: 18px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #a00309;
+}/*# sourceMappingURL=main.css.map */
